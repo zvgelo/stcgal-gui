@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=STC Programmer GUI
+GenericName=Programator mikrokontrolerów STC
+Comment=Programowanie i diagnostyka STC8/STC15/STC12/STC89 przez stcgal
+Comment[pl]=Programowanie i diagnostyka mikrokontrolerów STC przez stcgal
+Exec=@BIN@
+Icon=stcgal-gui
+Terminal=false
+Categories=Development;Electronics;
+Keywords=STC;stcgal;8051;ISP;programmer;CH340;
+StartupWMClass=stcgal-gui

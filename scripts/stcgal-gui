@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Launcher: uruchamia aplikację z odizolowanego venv. Na Wayland używa natywnego backendu Qt.
+export QT_QPA_PLATFORM="${QT_QPA_PLATFORM:-wayland;xcb}"
+exec "@VENV@/bin/python" -m stcgal_gui "$@"

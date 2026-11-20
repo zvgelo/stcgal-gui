@@ -1,0 +1,6 @@
+# Zależności buildu aplikacji (Windows x64, Python 3.13). Wspólne dla build-windows.sh (Wine)
+# i GitHub Actions - jedno źródło wersji. Backend: stcgal 1.10 (pinned).
+PySide6==6.10.1
+pyserial==3.5
+pyinstaller==6.22.3
+stcgal==1.10
